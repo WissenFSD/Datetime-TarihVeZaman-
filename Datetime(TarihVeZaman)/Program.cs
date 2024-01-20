@@ -65,7 +65,7 @@ Console.WriteLine("İki tarih arasındaki fark gün olarak {0}",fark.TotalHours)
 
 // Formatlamak istediğimiz şekilde formatı değiştirebiliriz
 //string format = "MMM ddd d HH:MM yyyy";
-string format = "yy/dd/MM";
+string format = "yyyy/dd/MM";
 DateTime tarih5 = DateTime.Now;
 Console.WriteLine(tarih5.ToString(format));
 
